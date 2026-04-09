@@ -38,7 +38,7 @@ export const App = () => {
 
       <table className="table">
         <tbody>
-          {goods.map(good =>
+          {goods.map((good) => (
             good === selectedGood ? (
               <tr
                 key={good}
@@ -78,7 +78,7 @@ export const App = () => {
                 </td>
               </tr>
             )
-          )}
+          ))} 
         </tbody>
       </table>
     </main>
