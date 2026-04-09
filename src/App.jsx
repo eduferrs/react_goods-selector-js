@@ -77,7 +77,8 @@ export const App = () => {
                   {good}
                 </td>
               </tr>
-            ))}
+            )
+          )}
         </tbody>
       </table>
     </main>
